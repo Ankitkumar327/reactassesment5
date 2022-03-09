@@ -1,0 +1,76 @@
+.heading-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkblue;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to left, red, pink);
+}
+.studentHeading {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.addStudent {
+  border-radius: 20px;
+  background-color: skyblue;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover {
+  color: pink;
+}
+
+.table {
+  width: 80%;
+  margin: auto;
+}
+
+.tableHead {
+  font-weight: bold;
+  color: red;
+}
+
+.container {
+  border: 2px solid red;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 400px;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.btn {
+  width: 250px;
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 360px;
+  margin-bottom: 180px;
+}
